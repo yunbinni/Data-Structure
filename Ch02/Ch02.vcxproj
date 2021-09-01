@@ -67,20 +67,20 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FiboFuncProcedure .c" />
-    <ClCompile Include="FibonacciFunc.c">
+    <ClCompile Include="FiboFuncProcedure .cpp" />
+    <ClCompile Include="FibonacciFunc.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="HanoiTowerSolu.c">
+    <ClCompile Include="HanoiTowerSolu.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="RecursiveBinarySearch.c">
+    <ClCompile Include="RecursiveBinarySearch.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="RecursiveFactorial.c">
+    <ClCompile Include="RecursiveFactorial.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="RecursiveFunc.c">
+    <ClCompile Include="RecursiveFunc.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>

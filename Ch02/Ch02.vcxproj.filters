@@ -15,22 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FiboFuncProcedure .c">
+    <ClCompile Include="FiboFuncProcedure .cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="FibonacciFunc.c">
+    <ClCompile Include="FibonacciFunc.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="HanoiTowerSolu.c">
+    <ClCompile Include="HanoiTowerSolu.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="RecursiveBinarySearch.c">
+    <ClCompile Include="RecursiveBinarySearch.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="RecursiveFactorial.c">
+    <ClCompile Include="RecursiveFactorial.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="RecursiveFunc.c">
+    <ClCompile Include="RecursiveFunc.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
