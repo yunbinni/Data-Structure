@@ -13,25 +13,16 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\ArrayList">
-      <UniqueIdentifier>{a50889bc-2926-4229-9b67-7ab8c33aefa2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\ArrayListPointStructBase">
-      <UniqueIdentifier>{8a3b25eb-2ba4-4b8c-9d7f-d25b929df0ac}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ListMain.cpp">
-      <Filter>소스 파일\ArrayList</Filter>
-    </ClCompile>
     <ClCompile Include="ArrayList.cpp">
-      <Filter>소스 파일\ArrayListPointStructBase</Filter>
+      <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Point.cpp">
-      <Filter>소스 파일\ArrayListPointStructBase</Filter>
+      <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="PointListMain.cpp">
-      <Filter>소스 파일\ArrayListPointStructBase</Filter>
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

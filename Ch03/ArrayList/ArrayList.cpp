@@ -1,4 +1,4 @@
-﻿#include <stdio.h>
+#include <stdio.h>
 #include "ArrayList.h"
 
 void ListInit(List* plist)
@@ -9,9 +9,9 @@ void ListInit(List* plist)
 
 void LInsert(List* plist, LData data)
 {
-	if (plist->numOfData >= LIST_LEN)
+	if (plist->numOfData > LIST_LEN)
 	{
-		puts("저장이 불가능합니다.");
+		puts("������ �Ұ����մϴ�.");
 		return;
 	}
 
@@ -50,7 +50,7 @@ LData LRemove(List* plist)
 		plist->arr[i] = plist->arr[i + 1];
 
 	(plist->numOfData)--;
-	(plist->curPosition)--;		// 참조되지 않은 위치라 삭제, 자세한 건 91쪽
+	(plist->curPosition)--;
 	return rdata;
 }
 
