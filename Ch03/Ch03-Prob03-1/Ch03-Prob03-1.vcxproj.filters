@@ -15,23 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FiboFuncProcedure .c">
+    <ClCompile Include="ListUseMain.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="FibonacciFunc.c">
+    <ClCompile Include="ArrayList.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="HanoiTowerSolu.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="RecursiveBinarySearch.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="RecursiveFactorial.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="RecursiveFunc.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArrayList.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
