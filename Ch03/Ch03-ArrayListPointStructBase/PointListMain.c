@@ -7,7 +7,7 @@ int main(void)
 {
 	List list;
 	Point compPos;
-	Point* ppos;
+	Point * ppos;
 
 	ListInit(&list);
 
@@ -31,32 +31,32 @@ int main(void)
 	/*** 저장된 데이터의 출력 ***/
 	printf("현재 데이터의 수: %d \n", LCount(&list));
 
-	if (LFirst(&list, &ppos))
+	if(LFirst(&list, &ppos))
 	{
 		ShowPointPos(ppos);
-
-		while (LNext(&list, &ppos))
+		
+		while(LNext(&list, &ppos))
 			ShowPointPos(ppos);
 	}
 	printf("\n");
 
 	/*** xpos가 2인 모든 데이터 삭제 ***/
-	compPos.xpos = 2;
-	compPos.ypos = 0;
+	compPos.xpos=2;
+	compPos.ypos=0;
 
-	if (LFirst(&list, &ppos))
+	if(LFirst(&list, &ppos))
 	{
-		if (PointComp(ppos, &compPos) == 1)
+		if(PointComp(ppos, &compPos)==1)
 		{
-			ppos = LRemove(&list);
+			ppos=LRemove(&list);
 			free(ppos);
 		}
-
-		while (LNext(&list, &ppos))
+		
+		while(LNext(&list, &ppos)) 
 		{
-			if (PointComp(ppos, &compPos) == 1)
+			if(PointComp(ppos, &compPos)==1)
 			{
-				ppos = LRemove(&list);
+				ppos=LRemove(&list);
 				free(ppos);
 			}
 		}
@@ -65,11 +65,11 @@ int main(void)
 	/*** 삭제 후 남은 데이터 전체 출력 ***/
 	printf("현재 데이터의 수: %d \n", LCount(&list));
 
-	if (LFirst(&list, &ppos))
+	if(LFirst(&list, &ppos))
 	{
 		ShowPointPos(ppos);
-
-		while (LNext(&list, &ppos))
+		
+		while(LNext(&list, &ppos))
 			ShowPointPos(ppos);
 	}
 	printf("\n");

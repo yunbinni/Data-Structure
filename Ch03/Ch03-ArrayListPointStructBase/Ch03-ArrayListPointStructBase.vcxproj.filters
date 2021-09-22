@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ArrayList.cpp">
+    <ClCompile Include="Point.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Point.cpp">
+    <ClCompile Include="PointListMain.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="PointListMain.cpp">
+    <ClCompile Include="ArrayList.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -3,20 +3,20 @@
 
 void ListInit(List* plist)
 {
-	(plist->numOfData) = 0;
-	(plist->curPosition) = -1;
+	plist->numOfData = 0;
+	plist->curPosition = -1;
 }
 
 void LInsert(List* plist, LData data)
 {
-	if (plist->numOfData > LIST_LEN)
+	if (plist->numOfData >= LIST_LEN)
 	{
 		puts("저장이 불가능합니다.");
 		return;
 	}
 
-	plist->arr[plist->numOfData] = data;
-	(plist->numOfData)++;
+	plist->arr[plist->curPosition] = data;
+	plist->curPosition++;
 }
 
 int LFirst(List* plist, LData* pdata)
@@ -24,14 +24,15 @@ int LFirst(List* plist, LData* pdata)
 	if (plist->numOfData == 0)
 		return FALSE;
 
-	(plist->curPosition) = 0;
+	plist->curPosition = 0;
+
 	*pdata = plist->arr[0];
 	return TRUE;
 }
 
 int LNext(List* plist, LData* pdata)
 {
-	if (plist->curPosition >= (plist->numOfData) - 1)
+	if (plist->curPosition >= (plist->numOfData)-1)
 		return FALSE;
 
 	(plist->curPosition)++;

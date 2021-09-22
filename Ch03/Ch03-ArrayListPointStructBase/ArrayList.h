@@ -9,7 +9,7 @@
 #define LIST_LEN	100
 
 // typedef int LData;
-typedef Point* LData;     // 두 번째 변경
+typedef Point * LData;     // 두 번째 변경
 
 typedef struct __ArrayList
 {
@@ -21,13 +21,13 @@ typedef struct __ArrayList
 
 typedef ArrayList List;
 
-void ListInit(List* plist);
-void LInsert(List* plist, LData data);
+void ListInit(List * plist);
+void LInsert(List * plist, LData data);
 
-int LFirst(List* plist, LData* pdata);
-int LNext(List* plist, LData* pdata);
+int LFirst(List * plist, LData * pdata);
+int LNext(List * plist, LData * pdata);
 
-LData LRemove(List* plist);
-int LCount(List* plist);
+LData LRemove(List * plist);
+int LCount(List * plist);
 
 #endif
