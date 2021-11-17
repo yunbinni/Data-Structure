@@ -19,7 +19,6 @@ typedef struct _listStack
 
 typedef ListStack Stack;
 
-
 void StackInit(Stack* pstack);
 int SIsEmpty(Stack* pstack);
 
